@@ -17,8 +17,8 @@ grey_to_monochrome_threshold = 200 # when converting the 8bpp greyscale image to
                                    # which values will be pure black and which will be pure white. ie: with threshold 200
                                    # all bytes with value more than 200 the pixel will become white, otherwise will become black
 ############################        
-width_res = 1200
-height_res = 825
+width_res = 960
+height_res = 540
 width_res2 = width_res + x_offset
 height_res2 = height_res + y_offset
 tot_nb_pixels = height_res * width_res
