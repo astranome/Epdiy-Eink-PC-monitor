@@ -19,8 +19,8 @@
 #include <rle_compression.h>
 #include <generate_eink_framebuffer.h>
 
-char *esp32_ip_address = "192.168.43.109";
-int width_resolution = 1200, height_resolution = 825;
+char *esp32_ip_address = "172.16.0.32";
+int width_resolution = 960, height_resolution = 540;
 
 unsigned char compressed_chunk_lengths_in_bytes[16];
 
