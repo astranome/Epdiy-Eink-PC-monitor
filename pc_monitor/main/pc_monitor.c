@@ -13,7 +13,7 @@
 
 #define EPD_LINE_BYTES EPD_WIDTH / 4
 
-int nb_times_to_write_framebuffer = 3; // sets the number of times to write the current framebuffer to the screen
+int nb_times_to_write_framebuffer = 7; // sets the number of times to write the current framebuffer to the screen
 int rmt_high_time = 150;   // defined at in rmt_pulse.h, a higher value makes blacks blacker and whites whiter
 int rmt_low_time = 1;
 
